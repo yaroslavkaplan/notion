@@ -28,13 +28,13 @@ body{
 
 <script>
     var weekday = new Array(7);
-    weekday[0] = "неділя";
+    weekday[0] = "неділю";
     weekday[1] = "понеділок";
     weekday[2] = "вівторок";
-    weekday[3] = "середа";
+    weekday[3] = "середу";
     weekday[4] = "четвер";
-    weekday[5] = "пʼятниця";
-    weekday[6] = "субота";
+    weekday[5] = "пʼятницю";
+    weekday[6] = "суботу";
 
     
     var today = new Date();
@@ -52,6 +52,6 @@ body{
         greet = 'Добрий вечір  ';
 
     document.getElementById('lbl').innerHTML =
-        greet+=`<div id="date"> Сьгодні ${date}</div>`;
+        greet+=`<div id="date"> Сьогодні, у ${date}</div> ми навчимося використовувати віджети`;
 </script> 
 </html>
